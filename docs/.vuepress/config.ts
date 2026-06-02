@@ -12,6 +12,21 @@ export default defineUserConfig({
     [
       "script",
       {
+        async: true,
+        src: "https://www.googletagmanager.com/gtag/js?id=G-9QM0DWGFXG",
+      },
+    ],
+    [
+      "script",
+      {},
+      `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-9QM0DWGFXG');`,
+    ],
+    [
+      "script",
+      {
         type: "text/javascript",
         charset: "UTF-8",
         src: "https://cdn.wwads.cn/js/makemoney.js",
