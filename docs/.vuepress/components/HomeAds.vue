@@ -34,11 +34,11 @@ const handleAdClick = async () => {
 
 <template>
   <div class="ads-container">
-    <div class="vidhub-new-bgc">
+    <!-- <div class="vidhub-new-bgc">
       <a :href="jumpUrl" target="_blank" rel="noopener" @click="handleAdClick">
         <img :src="backgroundImage" :alt="isChinese ? 'VidHub 背景' : 'VidHub Background'" />
       </a>
-    </div>
+    </div> -->
   </div>
 </template>
 
